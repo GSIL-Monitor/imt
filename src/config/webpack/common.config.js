@@ -63,7 +63,7 @@ function configureCssLoader({ projectDir, cache, possCssImport, sourceMap, publi
       },
     },
     {
-      loader: resolve('sass-loader'),
+      loader: resolve('sassjs-loader'),
       options: {
         includePaths: [
           // 支持绝对路径查找
